@@ -1,11 +1,7 @@
-# clough_systems_ca CHANGELOG
+# trusted_ca CHANGELOG
 
-This file is used to list changes made in each version of the clough_systems_ca cookbook.
+This file is used to list changes made in each version of the trusted_ca cookbook.
 
-# 0.1.0
+# 1.0.0
 
-Initial release.
-
-- change 0
-- change 1
-
+Initial public release.

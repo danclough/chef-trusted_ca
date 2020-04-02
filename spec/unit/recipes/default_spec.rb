@@ -1,12 +1,11 @@
 #
-# Cookbook:: clough_systems_ca
+# Cookbook:: trusted_ca
 # Spec:: default
 #
-# Copyright:: 2020, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'clough_systems_ca::default' do
+describe 'trusted_ca::default' do
   context 'When all attributes are default, on Ubuntu 18.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md

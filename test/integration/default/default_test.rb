@@ -1,4 +1,4 @@
-# InSpec test for recipe clough_systems_ca::default
+# InSpec test for recipe trusted_ca::default
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://www.inspec.io/docs/reference/resources/
