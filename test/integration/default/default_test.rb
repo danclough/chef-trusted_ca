@@ -6,11 +6,11 @@
 def certificate_path
   case os.family
   when 'debian'
-      '/usr/local/share/ca-certificates'
+    '/usr/local/share/ca-certificates'
   when 'suse'
-      '/etc/pki/trust/anchors/'
+    '/etc/pki/trust/anchors/'
   else # probably RHEL
-      '/etc/pki/ca-trust/source/anchors'
+    '/etc/pki/ca-trust/source/anchors'
   end
 end
 
@@ -26,7 +26,7 @@ if os.family == 'debian'
   describe file('/etc/ssl/certs/new_ca.pem') do
     it { should exist }
     it { should be_symlink }
-    its('shallow_link_path') { should eq "/usr/local/share/ca-certificates/new_ca.crt"}
+    its('shallow_link_path') { should eq "/usr/local/share/ca-certificates/new_ca.crt" }
   end
   describe file('/etc/ssl/certs/old_ca.pem') do
     it { should_not exist }
